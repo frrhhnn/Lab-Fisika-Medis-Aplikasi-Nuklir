@@ -1,4 +1,4 @@
-<section id="services" class="relative py-24 h-screen bg-gradient-to-br from-gray-50 via-white to-gray-100 overflow-hidden scroll-mt-20">
+<section id="services" class="relative py-24 bg-gradient-to-br from-gray-50 via-white to-gray-100 overflow-hidden scroll-mt-20">
     <!-- Background Elements -->
     <div class="absolute inset-0 opacity-5">
         <div class="absolute inset-0" style="background-image: radial-gradient(circle at 2px 2px, #10B981 1px, transparent 0); background-size: 40px 40px;"></div>
@@ -8,7 +8,7 @@
 
     <div class="container mx-auto px-6 relative z-10">
         <!-- Header -->
-        <div class="text-center mb-20" data-aos="fade-down">
+        <div class="text-center mb-20 md:mb-40" data-aos="fade-down">
             <h2 class="text-5xl md:text-6xl font-extrabold text-gray-800 mb-6 font-inter">
                 <span class="bg-gradient-to-r from-emerald-500 to-emerald-600 bg-clip-text text-transparent">
                     Layanan
@@ -22,7 +22,7 @@
         </div>
 
         <!-- Service Cards -->
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-20 md:gap-10">
             <!-- Card 1: Peminjaman Alat -->
             <div class="group relative bg-white/80 backdrop-blur-sm rounded-3xl p-8 text-center shadow-xl hover:shadow-2xl transition-all duration-500 border border-gray-100/50 hover:border-emerald-500/20" data-aos="fade-up" data-aos-delay="100">
                 <div class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-28 h-28 bg-white rounded-full border-8 border-gray-50 flex items-center justify-center">

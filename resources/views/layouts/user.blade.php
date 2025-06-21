@@ -91,8 +91,8 @@
         <div class="container mx-auto px-6">
             <div class="flex justify-between items-center py-4">
                 <div class="flex items-center">
-                    <img id="logo-putih" src="{{ asset('images/logo/logo-fisika-putih.png') }}" alt="Logo Putih" class="h-10 w-auto object-contain">
-                    <img id="logo-hitam" src="{{ asset('images/logo/logo-fisika-hitam.png') }}" alt="Logo Hitam" class="h-10 w-auto object-contain hidden">
+                    <img id="logo-putih" src="{{ asset('images/logo/logo-fisika-putih.png') }}" alt="Logo Putih" class="h-6 md:h-10 md:w-auto object-contain">
+                    <img id="logo-hitam" src="{{ asset('images/logo/logo-fisika-hitam.png') }}" alt="Logo Hitam" class="h-6 md:h-10 md:w-auto object-contain hidden">
                 </div>
                 <div id="navbar-menu" class="hidden md:flex space-x-8 text-white">
                     <a href="#home" class="nav-link-underline">Beranda</a>
@@ -103,11 +103,11 @@
                     <a href="#contact" class="nav-link-underline">Kontak</a>
                 </div>
                 <button class="md:hidden" id="mobile-menu-button">
-                    <i class="fas fa-bars text-2xl"></i>
+                    <i class="fas fa-bars text-2xl text-primary"></i>
                 </button>
             </div>
             <div class="md:hidden hidden" id="mobile-menu">
-                <div class="flex flex-col space-y-4 pb-4 text-center">
+                <div class="flex flex-col space-y-4 pb-4 text-primary text-sm">
                     <a href="#home" class="nav-link-underline">Beranda</a>
                     <a href="#about" class="nav-link-underline">Tentang</a>
                     <a href="#staff" class="nav-link-underline">Staff dan Ahli</a>
